@@ -16,5 +16,5 @@ public class asnekotewak {
 	public asnekotewak() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MinecraftForge.EVENT_BUS.register(this);
-	}
+	}	
 }
