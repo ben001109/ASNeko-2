@@ -4,11 +4,14 @@ modLoader="javafml" #mandatory
 loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="MIT"
 [[mods]]
-modId="examplemod"
+modId="asnekotweak"
+credits="Asneko project team"
 version="${file.jarVersion}"
 displayName="A Stack Neko Modtweaker"
 logoFile="asneko.png"
 description='''
+Here is BLEACH1215(the mod maker's minecraft name) and i doesn't want to say anything on here, and if you like this modpack, you can share it to your friends.
+BTW, and this team all are Taiwanese(IDK
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.asnekotweak]]
