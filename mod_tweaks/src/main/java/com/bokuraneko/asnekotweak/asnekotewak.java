@@ -3,6 +3,8 @@ package com.bokuraneko.asnekotweak;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.bokuraneko.asnekotweak.core.init.iteminit;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +17,9 @@ public class asnekotewak {
 
 	public asnekotewak() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		
+		iteminit.ITEMS.register(bus);
+		
 		MinecraftForge.EVENT_BUS.register(this);
 	}	
 }
