@@ -11,7 +11,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class iteminit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
 			asnekotewak.MOD_ID);
-
 	public static final RegistryObject<Item> crescent_scythe = ITEMS.register("crescent_scythe",
-			() -> Item(new Item.Properties().group(ItemGroup.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().group(ItemGroup.TAB_COMBAT)));
 }
